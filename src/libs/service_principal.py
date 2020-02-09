@@ -13,7 +13,7 @@ class ServicePrincipal(object):
 
 class ServicePrincipalCreator:
 
-    def __init__(self, path_to_sp_config='../service-principal.json'):
+    def __init__(self, path_to_sp_config='service-principal.json'):
         self.path_to_sp_config = path_to_sp_config
 
     def create_sp_object(self):
