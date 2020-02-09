@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Azure Service Principal Config
+service-principal.json
+/service-principal.json
+/src/service-principal.json
+/src/libs/service-principal.json
+
 # C extensions
 *.so
 
